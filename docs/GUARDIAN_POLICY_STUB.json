@@ -1,0 +1,14 @@
+{
+  "name": "eSpark_VM0038_RED_v0.1",
+  "description": "Measurement -> Computation -> Certificate for EV charging (VM0038 / RED IE NORA).",
+  "schemas": [
+    { "type": "SessionMeasurement", "$id": "schema:SessionMeasurement:1.0" },
+    { "type": "IntensityHour", "$id": "schema:IntensityHour:1.0" },
+    { "type": "ComputationResult", "$id": "schema:ComputationResult:1.0" },
+    { "type": "Certificate", "$id": "schema:Certificate:1.0" }
+  ],
+  "actions": [
+    { "name": "compute", "input": { "siteId": "string", "from": "string", "to": "string", "mode": "VM0038|RED_IE_NORA" }, "output": "Certificate" }
+  ],
+  "version": "0.1.0"
+}
