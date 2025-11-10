@@ -1,0 +1,17 @@
+# Node / general
+node_modules
+dist
+.env
+.env.*
+.DS_Store
+
+# Editor junk
+*.swp
+.idea/
+.vscode/
+
+# OS
+Thumbs.db
+
+# Build artifacts
+coverage
