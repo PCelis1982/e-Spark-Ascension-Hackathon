@@ -19,6 +19,7 @@
 
 ## System diagram
 
+```mermaid
 flowchart LR
   CCS[CCS Backend] -->|Sessions & Intensity| Guardian[Hedera Guardian]
   
